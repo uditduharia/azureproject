@@ -1,3 +1,3 @@
-variable "storageuu11" {
-
+variable "resourceee" {
+  
 }
