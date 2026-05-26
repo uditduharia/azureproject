@@ -1,14 +1,17 @@
-resourceee = {
+ storageuu11 = {
+  stg12 = {
+    name                     = "stguu11"
+    resource_group_name      = "resourceee11"
+    location                 = "westus"
+    account_tier             = "Standard"
+    account_replication_type = "GRS"
+  }
 
-    rg1 = {
-        name = "resourceee11"
-        location = "westus"
-        managed_by = "ud1"
-    }
-
-    rg2 = {
-        name = "resourceee22"
-        location = "eastus"
-        managed_by = "ud2"
-    }
+  stg22 = {
+    name                     = "stguu22"
+    resource_group_name      = "resourceee22"
+    location                 = "eastus"
+    account_tier             = "Standard"
+    account_replication_type = "GRS"
+  }
 }

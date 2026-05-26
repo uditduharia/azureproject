@@ -1,9 +1,10 @@
-resource "azurerm_resource_group" "resrce" {
+resource "azurerm_storage_account" "storageuu" {
 
-    for_each = var.resourceee
+  for_each                 = var.storageuu11
+  name                     = each.value.name
+  resource_group_name      = each.value.resource_group_name
+  location                 = each.value.location
+  account_tier             = each.value.account_tier
+  account_replication_type = each.value.account_replication_type
 
-    name = each.value.name
-  location = each.value.location
-  managed_by = each.value.managed_by
-  
 }
